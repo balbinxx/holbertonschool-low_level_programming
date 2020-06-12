@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
  * use of if, else if and else por random numbers
@@ -28,3 +29,4 @@ int main(void)
     }
   return (0);
 }
+
