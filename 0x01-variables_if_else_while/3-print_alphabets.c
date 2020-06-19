@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-char al;
-char ph;
-for (al = 'a'; al <= 'z'; al++)
-putchar(al);
-for (ph = 'A'; ph <= 'Z'; ph++)
-putchar(ph);
+char x;
+char y;
+for (x = 'a'; x <= 'z'; x++)
+putchar(x);
+for (y = 'A'; y <= 'Z'; y++)
+putchar(y);
 putchar('\n');
 return (0);
 }

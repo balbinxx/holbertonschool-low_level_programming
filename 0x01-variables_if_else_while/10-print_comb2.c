@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-int n;
-int n2;
-for (n = 48; n <= 57; n++)
+int x;
+int y;
+for (x = 48; x <= 57; x++)
 {
-for (n2 = 48; n2 <= 57; n2++)
+for (y = 48; y <= 57; y++)
 {
-putchar(n);
-putchar(n2);
-if (n != 57 || n2 != 57)
+putchar(x);
+putchar(y);
+if (x != 57 || y != 57)
 {
 putchar(',');
 putchar(' ');

@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-int a, b;
-for (a = '0'; a <= '9'; a++)
+int x, y;
+for (x = '0'; x <= '9'; x++)
 {
-for (b = '0'; b <= '9'; b++)
+for (y = '0'; y <= '9'; y++)
 {
-if (a < b)
+if (x < y)
 {
-putchar(a);
-putchar(b);
-if (a != '8' || b != '9')
+putchar(x);
+putchar(y);
+if (x != '8' || x != '9')
 {
 putchar(',');
 putchar(' ');

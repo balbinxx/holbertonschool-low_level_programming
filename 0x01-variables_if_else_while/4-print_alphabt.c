@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char al;
-for (al = 'a'; al <= 'z'; al++)
+char x;
+for (x = 'a'; x <= 'z'; x++)
 {
-if (al != 'e' && al != 'q')
-putchar(al);
+if (x != 'e' && x != 'q')
+putchar(x);
 }
 putchar('\n');
 return (0);

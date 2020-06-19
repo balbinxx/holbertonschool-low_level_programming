@@ -6,24 +6,22 @@
  * use of if, else if and else por random numbers
  * Return: Always 0
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
-int n;
+int x;
 srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* your code goes there */
-if (n > 0)
+x = rand() - RAND_MAX / 2;
+if (x > 0)
 {
-printf("%d is positive\n", n);
+printf("%d is positive\n", x);
 }
-else if (n == 0)
+else if (x == 0)
 {
-printf("%d is zero\n", n);
+printf("%d is zero\n", x);
 }
 else
 {
-printf("%d is negative\n", n);
+printf("%d is negative\n", x);
 }
 return (0);
 }
