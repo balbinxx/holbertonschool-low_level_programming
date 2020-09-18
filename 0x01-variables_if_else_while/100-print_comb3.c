@@ -15,7 +15,7 @@ if (x < y)
 {
 putchar(x);
 putchar(y);
-if (x != '8' || x != '9')
+if (x < 58)
 {
 putchar(',');
 putchar(' ');
