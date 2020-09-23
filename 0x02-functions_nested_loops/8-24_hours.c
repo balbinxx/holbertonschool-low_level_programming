@@ -24,8 +24,8 @@ void jack_bauer(void)
 					_putchar('\n');
 				}
 			}
+			if (H1 == 50 && H2 == 51)
+				break;
 		}
-		if (H1 == 50 && H2 == 51)
-			break;
 	}
 }
