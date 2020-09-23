@@ -6,10 +6,7 @@
  */
 void jack_bauer(void)
 {
-	int H1;
-	int H2;
-	int m;
-	int s;
+	int H1, H2, m, s;
 
 	for (H1 = 48; H1 < 51; H1++)
 	{
@@ -21,7 +18,7 @@ void jack_bauer(void)
 				{
 					_putchar(H1);
 					_putchar(H2);
-					_putchar(58);
+					_putchar(':');
 					_putchar(m);
 					_putchar(s);
 					_putchar('\n');
