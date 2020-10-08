@@ -9,8 +9,8 @@
 void _print_rev_recursion(char *s)
 {
 	/*base*/
-       	if (*s == '\0')
-	      	return;
+	if (*s == '\0')
+		return;
 	_print_rev_recursion(s + 1);
 	/*Go to the finish first*/
 	_putchar(*s);
