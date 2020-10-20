@@ -1,0 +1,1 @@
+# Begging with Structures with a Dog´s data.
