@@ -1,5 +1,5 @@
-#ifndef _SIZE
-#define _SIZE
+#ifndef _FUCKME
+#define _FUCKME
 
 #define SIZE 1024
 
