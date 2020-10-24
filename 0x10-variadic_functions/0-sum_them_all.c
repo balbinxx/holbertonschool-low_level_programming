@@ -3,7 +3,8 @@
 /**
  * sum_them_all - sum all integers given by n
  * @n: constant int given by main
- * Return: Sum
+ * @...: integers to sum
+ * Return: Sum result
  */
 int sum_them_all(const unsigned int n, ...)
 {
