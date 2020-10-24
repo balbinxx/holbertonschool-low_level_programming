@@ -9,7 +9,7 @@ int sum_them_all(const unsigned int n, ...);
 
 typedef struct mark
 {
-	char *mark
+	char *mark;
 	void (*f)();
 } mk;
 
