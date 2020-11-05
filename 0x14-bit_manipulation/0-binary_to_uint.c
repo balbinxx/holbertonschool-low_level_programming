@@ -12,6 +12,8 @@ unsigned int binary_to_uint(const char *b)
 
 	while (*b)
 	{
+		if (!b)
+			return (0);
 		if (*b != '0' && *b != '1')
 			return (0);
 		n = n * 2 + (*b++ - '0'); /* '0' because it's an int*/
