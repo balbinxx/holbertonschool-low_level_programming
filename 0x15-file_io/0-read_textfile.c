@@ -9,13 +9,18 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	size_t s = 0;
+	int w;
+	char x = 0;
+	ssize_t s;
 	
-	if (filename)
-		return (s);
 
-	s = write(STDOUT_FILENO, filename, letters);
-	if (s == -1)
+	if (!filename || !letters)
 		return (0);
+	w = open(filename, O_RDONLY);
+	if (w == -1)
+		return (0);
+	s = read(w, &x[0], letters);
+	s = write(STDOUT_FILENO, &x[0], s);
+	close(w);
 	return (s);
 }
